@@ -37,10 +37,17 @@ Public Class Form2
         TextBox1.Enabled = True
         Timer1.Enabled = True
         Timer1.Start()
+
+        ''
     End Sub
 
     Private Sub VerPalabrasToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles VerPalabrasToolStripMenuItem.Click
         Form3.Show()
         Class1.verLista()
+    End Sub
+
+    Private Sub AñadirToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AñadirToolStripMenuItem.Click
+        Form4.Show()
+        Form4.TextBox1.Clear()
     End Sub
 End Class

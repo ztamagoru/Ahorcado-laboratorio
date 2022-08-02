@@ -72,13 +72,13 @@ Partial Class Form2
         'VerPalabrasToolStripMenuItem
         '
         Me.VerPalabrasToolStripMenuItem.Name = "VerPalabrasToolStripMenuItem"
-        Me.VerPalabrasToolStripMenuItem.Size = New System.Drawing.Size(128, 22)
+        Me.VerPalabrasToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.VerPalabrasToolStripMenuItem.Text = "Ver listado"
         '
         'AñadirToolStripMenuItem
         '
         Me.AñadirToolStripMenuItem.Name = "AñadirToolStripMenuItem"
-        Me.AñadirToolStripMenuItem.Size = New System.Drawing.Size(128, 22)
+        Me.AñadirToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.AñadirToolStripMenuItem.Text = "Añadir"
         '
         'PartidaToolStripMenuItem
@@ -91,27 +91,27 @@ Partial Class Form2
         'ComenzarToolStripMenuItem
         '
         Me.ComenzarToolStripMenuItem.Name = "ComenzarToolStripMenuItem"
-        Me.ComenzarToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ComenzarToolStripMenuItem.Size = New System.Drawing.Size(162, 22)
         Me.ComenzarToolStripMenuItem.Text = "Comenzar"
         '
         'ReiniciarToolStripMenuItem
         '
         Me.ReiniciarToolStripMenuItem.Enabled = False
         Me.ReiniciarToolStripMenuItem.Name = "ReiniciarToolStripMenuItem"
-        Me.ReiniciarToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ReiniciarToolStripMenuItem.Size = New System.Drawing.Size(162, 22)
         Me.ReiniciarToolStripMenuItem.Text = "Reiniciar"
         '
         'MejoresTiemposToolStripMenuItem
         '
         Me.MejoresTiemposToolStripMenuItem.Name = "MejoresTiemposToolStripMenuItem"
-        Me.MejoresTiemposToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.MejoresTiemposToolStripMenuItem.Size = New System.Drawing.Size(162, 22)
         Me.MejoresTiemposToolStripMenuItem.Text = "Mejores tiempos"
         '
         'SalirToolStripMenuItem
         '
         Me.SalirToolStripMenuItem.Enabled = False
         Me.SalirToolStripMenuItem.Name = "SalirToolStripMenuItem"
-        Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(162, 22)
         Me.SalirToolStripMenuItem.Text = "Salir"
         '
         'letras

@@ -30,4 +30,9 @@
         Form3.Show()
         Class1.verLista()
     End Sub
+
+    Private Sub AñadirToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AñadirToolStripMenuItem.Click
+        Form4.Show()
+        Form4.TextBox1.Clear()
+    End Sub
 End Class
