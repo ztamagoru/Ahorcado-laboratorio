@@ -14,11 +14,27 @@
 
             Form2.nombre.Text = TextBox1.Text.Trim
             Form2.Show()
+
+            MsgBox("Para comenzar con una partida del ahorcado, tocar" + Environment.NewLine +
+                   "el botón de Partida y luego el de Comenzar.")
+
             Me.Hide()
         End If
     End Sub
 
     Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
         End
+    End Sub
+
+    Private Sub VerPalabrasToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles VerPalabrasToolStripMenuItem.Click
+        If Form3.listview.Items.Count = 0 Then
+            Class1.verLista()
+        Else
+            Form3.listview.Clear()
+
+            Class1.verLista()
+        End If
+
+        Form3.Show()
     End Sub
 End Class

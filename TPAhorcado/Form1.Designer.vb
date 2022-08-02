@@ -32,11 +32,10 @@ Partial Class Form1
         Me.VerPalabrasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AñadirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PartidaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ComenzarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ReiniciarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MejoresTiemposToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SalirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.ComenzarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -98,7 +97,7 @@ Partial Class Form1
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(4, 2, 0, 2)
-        Me.MenuStrip1.Size = New System.Drawing.Size(697, 24)
+        Me.MenuStrip1.Size = New System.Drawing.Size(279, 24)
         Me.MenuStrip1.TabIndex = 11
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -112,13 +111,13 @@ Partial Class Form1
         'VerPalabrasToolStripMenuItem
         '
         Me.VerPalabrasToolStripMenuItem.Name = "VerPalabrasToolStripMenuItem"
-        Me.VerPalabrasToolStripMenuItem.Size = New System.Drawing.Size(128, 22)
+        Me.VerPalabrasToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.VerPalabrasToolStripMenuItem.Text = "Ver listado"
         '
         'AñadirToolStripMenuItem
         '
         Me.AñadirToolStripMenuItem.Name = "AñadirToolStripMenuItem"
-        Me.AñadirToolStripMenuItem.Size = New System.Drawing.Size(128, 22)
+        Me.AñadirToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.AñadirToolStripMenuItem.Text = "Añadir"
         '
         'PartidaToolStripMenuItem
@@ -128,48 +127,39 @@ Partial Class Form1
         Me.PartidaToolStripMenuItem.Size = New System.Drawing.Size(56, 20)
         Me.PartidaToolStripMenuItem.Text = "Partida"
         '
+        'ComenzarToolStripMenuItem
+        '
+        Me.ComenzarToolStripMenuItem.CheckOnClick = True
+        Me.ComenzarToolStripMenuItem.Enabled = False
+        Me.ComenzarToolStripMenuItem.Name = "ComenzarToolStripMenuItem"
+        Me.ComenzarToolStripMenuItem.Size = New System.Drawing.Size(162, 22)
+        Me.ComenzarToolStripMenuItem.Text = "Comenzar"
+        '
         'ReiniciarToolStripMenuItem
         '
         Me.ReiniciarToolStripMenuItem.Enabled = False
         Me.ReiniciarToolStripMenuItem.Name = "ReiniciarToolStripMenuItem"
-        Me.ReiniciarToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ReiniciarToolStripMenuItem.Size = New System.Drawing.Size(162, 22)
         Me.ReiniciarToolStripMenuItem.Text = "Reiniciar"
         '
         'MejoresTiemposToolStripMenuItem
         '
         Me.MejoresTiemposToolStripMenuItem.Name = "MejoresTiemposToolStripMenuItem"
-        Me.MejoresTiemposToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.MejoresTiemposToolStripMenuItem.Size = New System.Drawing.Size(162, 22)
         Me.MejoresTiemposToolStripMenuItem.Text = "Mejores tiempos"
         '
         'SalirToolStripMenuItem
         '
         Me.SalirToolStripMenuItem.Enabled = False
         Me.SalirToolStripMenuItem.Name = "SalirToolStripMenuItem"
-        Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(162, 22)
         Me.SalirToolStripMenuItem.Text = "Salir"
-        '
-        'TextBox2
-        '
-        Me.TextBox2.Location = New System.Drawing.Point(280, 40)
-        Me.TextBox2.Multiline = True
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(394, 217)
-        Me.TextBox2.TabIndex = 12
-        '
-        'ComenzarToolStripMenuItem
-        '
-        Me.ComenzarToolStripMenuItem.CheckOnClick = True
-        Me.ComenzarToolStripMenuItem.Enabled = False
-        Me.ComenzarToolStripMenuItem.Name = "ComenzarToolStripMenuItem"
-        Me.ComenzarToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.ComenzarToolStripMenuItem.Text = "Comenzar"
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(697, 269)
-        Me.Controls.Add(Me.TextBox2)
+        Me.ClientSize = New System.Drawing.Size(279, 269)
         Me.Controls.Add(Me.MenuStrip1)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.TextBox1)
@@ -177,6 +167,7 @@ Partial Class Form1
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Form1"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
@@ -198,6 +189,5 @@ Partial Class Form1
     Friend WithEvents ReiniciarToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents MejoresTiemposToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SalirToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents TextBox2 As TextBox
     Friend WithEvents ComenzarToolStripMenuItem As ToolStripMenuItem
 End Class

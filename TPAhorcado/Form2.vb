@@ -23,16 +23,28 @@ Public Class Form2
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Timer1.Stop()
+        If Timer1.Enabled = False Then
+            MsgBox("El tiempo aún no ha iniciado")
+        ElseIf TextBox1.Text.Trim = String.Empty Then
+            MsgBox("Campos en blanco" + Environment.NewLine +
+                   "Ingrese una letra para confirmar")
+        Else
+            Timer1.Stop()
+        End If
     End Sub
 
     Private Sub ComenzarToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ComenzarToolStripMenuItem.Click
-        MsgBox("cantidad de palabras del archivo: " +
-               Class1.contarlineas.ToString)
+        TextBox1.Enabled = True
+
+
+        'MsgBox("cantidad de palabras del archivo: " +
+        'Class1.contarlineas.ToString)
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Timer1.Enabled = True
         Timer1.Start()
     End Sub
+
+
 End Class

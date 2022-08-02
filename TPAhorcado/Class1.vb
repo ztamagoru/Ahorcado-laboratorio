@@ -12,5 +12,7 @@ Public Class Class1
         Return cantlineas.LongLength
     End Function
 
+    Shared Sub verLista()
 
+    End Sub
 End Class

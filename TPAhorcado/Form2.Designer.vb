@@ -205,6 +205,7 @@ Partial Class Form2
         '
         'TextBox1
         '
+        Me.TextBox1.Enabled = False
         Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox1.Location = New System.Drawing.Point(162, 300)
         Me.TextBox1.Margin = New System.Windows.Forms.Padding(2)
@@ -311,7 +312,8 @@ Partial Class Form2
         Me.Controls.Add(Me.base)
         Me.Controls.Add(Me.MenuStrip1)
         Me.Name = "Form2"
-        Me.Text = " "
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = " Form2"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         Me.ResumeLayout(False)
