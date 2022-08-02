@@ -27,14 +27,7 @@
     End Sub
 
     Private Sub VerPalabrasToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles VerPalabrasToolStripMenuItem.Click
-        If Form3.listview.Items.Count = 0 Then
-            Class1.verLista()
-        Else
-            Form3.listview.Clear()
-
-            Class1.verLista()
-        End If
-
         Form3.Show()
+        Class1.verLista()
     End Sub
 End Class

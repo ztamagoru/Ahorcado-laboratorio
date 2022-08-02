@@ -13,6 +13,11 @@ Public Class Class1
     End Function
 
     Shared Sub verLista()
+        Dim listado As String
 
+        listado = My.Computer.FileSystem.ReadAllText(ruta + archivo)
+
+        Form3.TextBox1.Text = listado
+        Form3.Label1.Text = "Cant: " + contarlineas().ToString
     End Sub
 End Class

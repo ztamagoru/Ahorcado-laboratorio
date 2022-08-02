@@ -35,16 +35,12 @@ Public Class Form2
 
     Private Sub ComenzarToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ComenzarToolStripMenuItem.Click
         TextBox1.Enabled = True
-
-
-        'MsgBox("cantidad de palabras del archivo: " +
-        'Class1.contarlineas.ToString)
-    End Sub
-
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Timer1.Enabled = True
         Timer1.Start()
     End Sub
 
-
+    Private Sub VerPalabrasToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles VerPalabrasToolStripMenuItem.Click
+        Form3.Show()
+        Class1.verLista()
+    End Sub
 End Class
