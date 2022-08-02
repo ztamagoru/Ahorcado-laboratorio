@@ -13,6 +13,7 @@
             Form2.letras.Text = "No hay errores."
 
             Form2.nombre.Text = TextBox1.Text.Trim
+            Form2.SalirToolStripMenuItem.Enabled = True
             Form2.Show()
 
             MsgBox("Para comenzar con una partida del ahorcado, tocar" + Environment.NewLine +

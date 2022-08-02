@@ -50,4 +50,8 @@ Public Class Form2
         Form4.Show()
         Form4.TextBox1.Clear()
     End Sub
+
+    Private Sub MejoresTiemposToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles MejoresTiemposToolStripMenuItem.Click
+
+    End Sub
 End Class

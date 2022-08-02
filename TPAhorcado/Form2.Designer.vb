@@ -104,7 +104,7 @@ Partial Class Form2
         'MejoresTiemposToolStripMenuItem
         '
         Me.MejoresTiemposToolStripMenuItem.Name = "MejoresTiemposToolStripMenuItem"
-        Me.MejoresTiemposToolStripMenuItem.Size = New System.Drawing.Size(162, 22)
+        Me.MejoresTiemposToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.MejoresTiemposToolStripMenuItem.Text = "Mejores tiempos"
         '
         'SalirToolStripMenuItem
