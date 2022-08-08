@@ -24,7 +24,6 @@ Public Class Class1
 
     Shared Sub añadirPalabra(palabra As String)
         escribir.WriteLine(palabra)
-        escribir.Close()
         MsgBox("Palabra guardada correctamente." + Environment.NewLine +
                "Cantidad de palabras actual: " + contarlineas().ToString)
 
