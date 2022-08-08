@@ -3,7 +3,7 @@
 Public Class Class1
 
     Shared ruta As String = "C:\Users\marus\source\repos\"
-    Shared archivo As String = "palabras.txt"
+    Shared archivo As String = "palabras2.txt"
     Shared cantlineas As String()
     Shared escribir As New StreamWriter(ruta + archivo, True)
 
