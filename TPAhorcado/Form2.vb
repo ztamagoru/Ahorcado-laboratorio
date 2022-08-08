@@ -38,7 +38,7 @@ Public Class Form2
         Timer1.Enabled = True
         Timer1.Start()
 
-        ''
+        Class1.randomWord()
     End Sub
 
     Private Sub VerPalabrasToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles VerPalabrasToolStripMenuItem.Click

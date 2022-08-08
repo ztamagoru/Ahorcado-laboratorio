@@ -30,4 +30,19 @@ Public Class Class1
 
         Form4.TextBox1.Clear()
     End Sub
+
+    Shared Sub randomWord()
+        Dim numLinea As Integer = randomLine()
+
+        MsgBox(numLinea.ToString)
+    End Sub
+
+    Shared Function randomLine() As Integer
+        Dim valor As Integer
+        Dim lineas As Integer = contarlineas()
+
+        valor = CInt(Math.Floor((lineas - 0 + 1) * Rnd())) + 0
+
+        Return valor
+    End Function
 End Class
